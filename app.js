@@ -4,6 +4,7 @@ const feedRoutes = require("./routes/feed");
 
 
 const app = express();
+app.set('view engine', 'ejs');
 
 //app.use(bodyParser.urlencoded());
 app.use(bodyParser.json()); //application/json
@@ -16,5 +17,11 @@ app.use((req, res, next)=>{
 });
 
 app.use("/feed", feedRoutes);
+app.get("/", (req, res, next)=> {
+    res.render("home.ejs")
+})
+app.get("*", (req, res, next)=> {
+    res.render("notfound.ejs")
+})
 
 app.listen(8080);
