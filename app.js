@@ -1,6 +1,8 @@
 const express = require('express');
 const bodyParser = require("body-parser");
 const feedRoutes = require("./routes/feed");
+const convertRoutes = require("./routes/convert");
+let jsonData = require('./data.json');
 
 
 const app = express();
@@ -16,9 +18,11 @@ app.use((req, res, next)=>{
     next(); 
 });
 
-app.use("/feed", feedRoutes);
-app.get("/", (req, res, next)=> {
-    res.render("home.ejs")
+// app.use("/feed", feedRoutes);
+app.use("/convert", convertRoutes);
+
+app.use("/", (req, res, next)=> {
+    res.render("home.ejs", {json: jsonData})
 })
 app.get("*", (req, res, next)=> {
     res.render("notfound.ejs")

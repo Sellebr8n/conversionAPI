@@ -8,7 +8,35 @@
 </head>
 <body>
     <h1>Welcome to the ConversionAPI Docs!</h1>
+    <table id="measurements">
+        <thead id="headers">
+            <tr>
+                <td>Measure</td>
+                <td>Unit_From</td>
+                <td>From_Abbreviation</td>
+                <td>Operator</td>
+                <td>Value</td>
+                <td>Unit_To</td>
+                <td>To_Abbreviation</td>
+            </tr>
+        </thead>
+        <tbody id="data">
+            <% for( let j of json) { %>
+                <tr>
+                    <td><%- j.Measure %></td>
+                    <td><%- j.Unit_From %></td>
+                    <td><%- j.From_Abbreviation %></td>
+                    <td><%- j.Operator %></td>
+                    <td><%- j.Value %></td>
+                    <td><%- j.Unit_To %></td>
+                    <td><%- j.To_Abbreviation %></td> 
+                </tr>
+            <% } %>
+        </tbody>
+    </table>
 
-    <p>how to....</p>
+<script>
+
+</script>
 </body>
 </html>
