@@ -1,0 +1,17 @@
+body {
+
+    display: flex;
+}
+main {
+    /* background-color: oldlace; */
+    text-align: center;
+}
+
+table{
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid black;
+}
+table td {
+    border: 1px solid black;
+}
