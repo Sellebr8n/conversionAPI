@@ -1,506 +1,275 @@
 [
- {
-   "Measure": "length",
-   "Unit_From": "centimetres",
-   "From_Abbreviation": "cm",
-   "Operator": "/",
-   "Value": "2,54",
-   "Unit_To": "inches",
-   "To_Abbreviation": "in. or  ″"
- },
- {
-   "Measure": "length",
-   "Unit_From": "centimetres",
-   "From_Abbreviation": "cm",
-   "Operator": "*",
-   "Value": "0,39",
-   "Unit_To": "inches",
-   "To_Abbreviation": "in. or  ″"
- },
- {
-   "Measure": "length",
-   "Unit_From": "inches",
-   "From_Abbreviation": "in. or  ″",
-   "Operator": "/",
-   "Value": "2,54",
-   "Unit_To": "centimetres",
-   "To_Abbreviation": "cm"
- },
- {
-   "Measure": "length",
-   "Unit_From": "inches",
-   "From_Abbreviation": "in. or  ″",
-   "Operator": "*",
-   "Value": "25,40",
-   "Unit_To": "millimetres",
-   "To_Abbreviation": "mm"
- },
- {
-   "Measure": "length",
-   "Unit_From": "inches",
-   "From_Abbreviation": "in. or  ″",
-   "Operator": "*",
-   "Value": "2,54",
-   "Unit_To": "centimetres",
-   "To_Abbreviation": "cm"
- },
- {
-   "Measure": "length",
-   "Unit_From": "metres",
-   "From_Abbreviation": "m",
-   "Operator": "*",
-   "Value": "39,37",
-   "Unit_To": "inches",
-   "To_Abbreviation": "in. or  ″"
- },
- {
-   "Measure": "length",
-   "Unit_From": "millimetres",
-   "From_Abbreviation": "mm",
-   "Operator": "/",
-   "Value": "25,40",
-   "Unit_To": "inches",
-   "To_Abbreviation": "in. or  ″"
- },
- {
-   "Measure": "length",
-   "Unit_From": "millimetres",
-   "From_Abbreviation": "mm",
-   "Operator": "*",
-   "Value": "0,04",
-   "Unit_To": "inches",
-   "To_Abbreviation": "in. or  ″"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "cups",
-   "From_Abbreviation": "c.",
-   "Operator": "/",
-   "Value": "236,59",
-   "Unit_To": "millilitres",
-   "To_Abbreviation": "mm"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "cups",
-   "From_Abbreviation": "c.",
-   "Operator": "/",
-   "Value": "0,24",
-   "Unit_To": "litres",
-   "To_Abbreviation": "l"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "fluid ounces (imperial)",
-   "From_Abbreviation": "fl.oz. or oz.",
-   "Operator": "/",
-   "Value": "28,41",
-   "Unit_To": "millilitres",
-   "To_Abbreviation": "mm"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "fluid ounces (u.s.)",
-   "From_Abbreviation": "fl.oz. or oz.",
-   "Operator": "/",
-   "Value": "29,57",
-   "Unit_To": "millilitres",
-   "To_Abbreviation": "mm"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "gallons (imperial)",
-   "From_Abbreviation": "gal.",
-   "Operator": "/",
-   "Value": "4,55",
-   "Unit_To": "litres",
-   "To_Abbreviation": "l"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "gallons (u.s.)",
-   "From_Abbreviation": "gal.",
-   "Operator": "/",
-   "Value": "3,79",
-   "Unit_To": "litres",
-   "To_Abbreviation": "l"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "litres",
-   "From_Abbreviation": "l",
-   "Operator": "/",
-   "Value": "0,24",
-   "Unit_To": "cups",
-   "To_Abbreviation": "c."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "litres",
-   "From_Abbreviation": "l",
-   "Operator": "/",
-   "Value": "0,47",
-   "Unit_To": "pints (u.s.)",
-   "To_Abbreviation": "pt."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "litres",
-   "From_Abbreviation": "l",
-   "Operator": "/",
-   "Value": "0,57",
-   "Unit_To": "pints (imperial)",
-   "To_Abbreviation": "pt."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "litres",
-   "From_Abbreviation": "l",
-   "Operator": "/",
-   "Value": "0,95",
-   "Unit_To": "quarts (u.s.)",
-   "To_Abbreviation": "qt."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "litres",
-   "From_Abbreviation": "l",
-   "Operator": "/",
-   "Value": "1,14",
-   "Unit_To": "quarts (imperial)",
-   "To_Abbreviation": "qt."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "litres",
-   "From_Abbreviation": "l",
-   "Operator": "/",
-   "Value": "3,79",
-   "Unit_To": "gallons (u.s.)",
-   "To_Abbreviation": "gal."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "litres",
-   "From_Abbreviation": "l",
-   "Operator": "/",
-   "Value": "4,55",
-   "Unit_To": "gallons (imperial)",
-   "To_Abbreviation": "gal."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "litres",
-   "From_Abbreviation": "l",
-   "Operator": "*",
-   "Value": "33,80",
-   "Unit_To": "fluid ounces (u.s.)",
-   "To_Abbreviation": "fl.oz. or oz."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "litres",
-   "From_Abbreviation": "l",
-   "Operator": "*",
-   "Value": "1,06",
-   "Unit_To": "quarts",
-   "To_Abbreviation": "qt."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "millilitres",
-   "From_Abbreviation": "mm",
-   "Operator": "/",
-   "Value": "4,93",
-   "Unit_To": "teaspoons",
-   "To_Abbreviation": "tsp."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "millilitres",
-   "From_Abbreviation": "mm",
-   "Operator": "/",
-   "Value": "14,79",
-   "Unit_To": "tablespoons",
-   "To_Abbreviation": "Tbsp. or tbsp."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "millilitres",
-   "From_Abbreviation": "mm",
-   "Operator": "/",
-   "Value": "28,41",
-   "Unit_To": "fluid ounces (imperial)",
-   "To_Abbreviation": "fl.oz. or oz."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "millilitres",
-   "From_Abbreviation": "mm",
-   "Operator": "/",
-   "Value": "29,57",
-   "Unit_To": "fluid ounces (u.s.)",
-   "To_Abbreviation": "fl.oz. or oz."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "millilitres",
-   "From_Abbreviation": "mm",
-   "Operator": "/",
-   "Value": "236,59",
-   "Unit_To": "cups",
-   "To_Abbreviation": "c."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "millilitres",
-   "From_Abbreviation": "mm",
-   "Operator": "/",
-   "Value": "473,18",
-   "Unit_To": "pints (u.s.)",
-   "To_Abbreviation": "pt."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "millilitres",
-   "From_Abbreviation": "mm",
-   "Operator": "/",
-   "Value": "568,26",
-   "Unit_To": "pints (imperial)",
-   "To_Abbreviation": "pt."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "millilitres",
-   "From_Abbreviation": "mm",
-   "Operator": "/",
-   "Value": "946,36",
-   "Unit_To": "quarts (u.s.)",
-   "To_Abbreviation": "qt."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "millilitres",
-   "From_Abbreviation": "mm",
-   "Operator": "/",
-   "Value": "1 137,00",
-   "Unit_To": "quarts (imperial)",
-   "To_Abbreviation": "qt."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "millilitres",
-   "From_Abbreviation": "mm",
-   "Operator": "*",
-   "Value": "0,03",
-   "Unit_To": "ounces",
-   "To_Abbreviation": "oz."
- },
- {
-   "Measure": "volume",
-   "Unit_From": "pints (imperial)",
-   "From_Abbreviation": "pt.",
-   "Operator": "/",
-   "Value": "568,26",
-   "Unit_To": "millilitres",
-   "To_Abbreviation": "mm"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "pints (imperial)",
-   "From_Abbreviation": "pt.",
-   "Operator": "/",
-   "Value": "0,57",
-   "Unit_To": "litres",
-   "To_Abbreviation": "l"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "pints (u.s.)",
-   "From_Abbreviation": "pt.",
-   "Operator": "/",
-   "Value": "473,18",
-   "Unit_To": "millilitres",
-   "To_Abbreviation": "mm"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "pints (u.s.)",
-   "From_Abbreviation": "pt.",
-   "Operator": "/",
-   "Value": "0,47",
-   "Unit_To": "litres",
-   "To_Abbreviation": "l"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "quarts",
-   "From_Abbreviation": "qt.",
-   "Operator": "*",
-   "Value": "0,95",
-   "Unit_To": "litres",
-   "To_Abbreviation": "l"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "quarts",
-   "From_Abbreviation": "qt.",
-   "Operator": "*",
-   "Value": "946,00",
-   "Unit_To": "millilitres",
-   "To_Abbreviation": "mm"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "quarts (imperial)",
-   "From_Abbreviation": "qt.",
-   "Operator": "/",
-   "Value": "1 137,00",
-   "Unit_To": "millilitres",
-   "To_Abbreviation": "mm"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "quarts (imperial)",
-   "From_Abbreviation": "qt.",
-   "Operator": "/",
-   "Value": "1,14",
-   "Unit_To": "litres",
-   "To_Abbreviation": "l"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "quarts (u.s.)",
-   "From_Abbreviation": "qt.",
-   "Operator": "/",
-   "Value": "946,36",
-   "Unit_To": "millilitres",
-   "To_Abbreviation": "mm"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "quarts (u.s.)",
-   "From_Abbreviation": "qt.",
-   "Operator": "/",
-   "Value": "0,95",
-   "Unit_To": "litres",
-   "To_Abbreviation": "l"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "tablespoons",
-   "From_Abbreviation": "Tbsp. or tbsp.",
-   "Operator": "/",
-   "Value": "14,79",
-   "Unit_To": "millilitres",
-   "To_Abbreviation": "mm"
- },
- {
-   "Measure": "volume",
-   "Unit_From": "teaspoons",
-   "From_Abbreviation": "tsp.",
-   "Operator": "/",
-   "Value": "4,93",
-   "Unit_To": "millilitres",
-   "To_Abbreviation": "mm"
- },
- {
-   "Measure": "weight",
-   "Unit_From": "grams",
-   "From_Abbreviation": "g",
-   "Operator": "/",
-   "Value": "28,35",
-   "Unit_To": "ounces",
-   "To_Abbreviation": "oz."
- },
- {
-   "Measure": "weight",
-   "Unit_From": "grams",
-   "From_Abbreviation": "g",
-   "Operator": "/",
-   "Value": "454,00",
-   "Unit_To": "pounds",
-   "To_Abbreviation": "lb. or #"
- },
- {
-   "Measure": "weight",
-   "Unit_From": "grams",
-   "From_Abbreviation": "g",
-   "Operator": "*",
-   "Value": "0,04",
-   "Unit_To": "ounces",
-   "To_Abbreviation": "oz."
- },
- {
-   "Measure": "weight",
-   "Unit_From": "kilograms",
-   "From_Abbreviation": "kg",
-   "Operator": "/",
-   "Value": "0,45",
-   "Unit_To": "pounds",
-   "To_Abbreviation": "lb. or #"
- },
- {
-   "Measure": "weight",
-   "Unit_From": "kilograms",
-   "From_Abbreviation": "kg",
-   "Operator": "*",
-   "Value": "2,20",
-   "Unit_To": "pounds",
-   "To_Abbreviation": "lb. or #"
- },
- {
-   "Measure": "weight",
-   "Unit_From": "ounces",
-   "From_Abbreviation": "oz.",
-   "Operator": "/",
-   "Value": "28,35",
-   "Unit_To": "grams",
-   "To_Abbreviation": "g"
- },
- {
-   "Measure": "weight",
-   "Unit_From": "ounces",
-   "From_Abbreviation": "oz.",
-   "Operator": "*",
-   "Value": "28,35",
-   "Unit_To": "grams",
-   "To_Abbreviation": "g"
- },
- {
-   "Measure": "weight",
-   "Unit_From": "pounds",
-   "From_Abbreviation": "lb. or #",
-   "Operator": "/",
-   "Value": "454,00",
-   "Unit_To": "grams",
-   "To_Abbreviation": "g"
- },
- {
-   "Measure": "weight",
-   "Unit_From": "pounds",
-   "From_Abbreviation": "lb. or #",
-   "Operator": "/",
-   "Value": "0,45",
-   "Unit_To": "kilograms",
-   "To_Abbreviation": "kg"
- },
- {
-   "Measure": "temperature",
-   "Unit_From": "celsius (centigrade)",
-   "From_Abbreviation": "°C",
-   "Operator": "* 1,8 + 32",
-   "Value": "multiply by 1,8 and add 32",
-   "Unit_To": "fahrenheit",
-   "To_Abbreviation": "°F"
- },
- {
-   "Measure": "temperature",
-   "Unit_From": "fahrenheit",
-   "From_Abbreviation": "°F",
-   "Operator": "-32 / 1,8",
-   "Value": "subtract 32 and divide by 1,8",
-   "Unit_To": "celsius (centigrade)",
-   "To_Abbreviation": "°C"
- }
+  {
+    "Measure": "length",
+    "From": "inches",
+    "Operator": "*",
+    "Multiplyer": "2,54",
+    "To": "centimeters"
+  },
+  {
+    "Measure": "length",
+    "From": "foot",
+    "Operator": "*",
+    "Multiplyer": "30",
+    "To": "centimeters"
+  },
+  {
+    "Measure": "length",
+    "From": "yards",
+    "Operator": "*",
+    "Multiplyer": "0,91",
+    "To": "meters"
+  },
+  {
+    "Measure": "length",
+    "From": "miles",
+    "Operator": "*",
+    "Multiplyer": "1,6",
+    "To": "kilometers"
+  },
+  {
+    "Measure": "area",
+    "From": "sq. inches",
+    "Operator": "*",
+    "Multiplyer": "6,5",
+    "To": "sq. centimeters"
+  },
+  {
+    "Measure": "area",
+    "From": "sq. feet",
+    "Operator": "*",
+    "Multiplyer": "0,09",
+    "To": "sq. meters"
+  },
+  {
+    "Measure": "area",
+    "From": "sq. yards",
+    "Operator": "*",
+    "Multiplyer": "0,8",
+    "To": "sq. meters"
+  },
+  {
+    "Measure": "area",
+    "From": "sq. miles",
+    "Operator": "*",
+    "Multiplyer": "2,6",
+    "To": "sq. kilometers"
+  },
+  {
+    "Measure": "weight",
+    "From": "ounces",
+    "Operator": "*",
+    "Multiplyer": "28",
+    "To": "grams"
+  },
+  {
+    "Measure": "weight",
+    "From": "pounds",
+    "Operator": "*",
+    "Multiplyer": "0,45",
+    "To": "kilograms"
+  },
+  {
+    "Measure": "weight",
+    "From": "short ton",
+    "Operator": "*",
+    "Multiplyer": "0,9",
+    "To": "metric ton"
+  },
+  {
+    "Measure": "volume",
+    "From": "teaspoons",
+    "Operator": "*",
+    "Multiplyer": "5",
+    "To": "milliliters"
+  },
+  {
+    "Measure": "volume",
+    "From": "tablespoons",
+    "Operator": "*",
+    "Multiplyer": "15",
+    "To": "milliliters"
+  },
+  {
+    "Measure": "volume",
+    "From": "fluid ounces",
+    "Operator": "*",
+    "Multiplyer": "30",
+    "To": "milliliters"
+  },
+  {
+    "Measure": "volume",
+    "From": "cups",
+    "Operator": "*",
+    "Multiplyer": "0,24",
+    "To": "liters"
+  },
+  {
+    "Measure": "volume",
+    "From": "pints",
+    "Operator": "*",
+    "Multiplyer": "0,47",
+    "To": "liters"
+  },
+  {
+    "Measure": "volume",
+    "From": "quarts",
+    "Operator": "*",
+    "Multiplyer": "0,95",
+    "To": "liters"
+  },
+  {
+    "Measure": "volume",
+    "From": "gallon",
+    "Operator": "*",
+    "Multiplyer": "3,8",
+    "To": "liters"
+  },
+  {
+    "Measure": "volume",
+    "From": "cubic feet",
+    "Operator": "*",
+    "Multiplyer": "0,03",
+    "To": "cubic meters"
+  },
+  {
+    "Measure": "volume",
+    "From": "cubic yards",
+    "Operator": "*",
+    "Multiplyer": "0,76",
+    "To": "cubic meters"
+  },
+  {
+    "Measure": "temperature",
+    "From": "farenheheit",
+    "Operator": "*",
+    "Multiplyer": "-32 * 1,8",
+    "To": "celsius"
+  },
+  {
+    "Measure": "length",
+    "From": "millimeters",
+    "Operator": "*",
+    "Multiplyer": "0,04",
+    "To": "inches"
+  },
+  {
+    "Measure": "length",
+    "From": "centimeters",
+    "Operator": "*",
+    "Multiplyer": "0,4",
+    "To": "inches"
+  },
+  {
+    "Measure": "length",
+    "From": "meters",
+    "Operator": "*",
+    "Multiplyer": "3,3",
+    "To": "feet"
+  },
+  {
+    "Measure": "length",
+    "From": "kilometers",
+    "Operator": "*",
+    "Multiplyer": "0,62",
+    "To": "miles"
+  },
+  {
+    "Measure": "area",
+    "From": "sq. centimeters",
+    "Operator": "*",
+    "Multiplyer": "0,16",
+    "To": "sq. inches"
+  },
+  {
+    "Measure": "area",
+    "From": "sq. meters",
+    "Operator": "*",
+    "Multiplyer": "1,2",
+    "To": "sq. yards"
+  },
+  {
+    "Measure": "area",
+    "From": "sq. kilometers",
+    "Operator": "*",
+    "Multiplyer": "0,4",
+    "To": "sq. miles"
+  },
+  {
+    "Measure": "area",
+    "From": "hectares",
+    "Operator": "*",
+    "Multiplyer": "2,47",
+    "To": "acres"
+  },
+  {
+    "Measure": "weight",
+    "From": "grams",
+    "Operator": "*",
+    "Multiplyer": "0,035",
+    "To": "ounces"
+  },
+  {
+    "Measure": "weight",
+    "From": "kilograms",
+    "Operator": "*",
+    "Multiplyer": "2,2",
+    "To": "pounds"
+  },
+  {
+    "Measure": "weight",
+    "From": "metric tons",
+    "Operator": "*",
+    "Multiplyer": "1,1",
+    "To": "short tons"
+  },
+  {
+    "Measure": "volume",
+    "From": "milliliters",
+    "Operator": "*",
+    "Multiplyer": "0,03",
+    "To": "fluid ounces"
+  },
+  {
+    "Measure": "volume",
+    "From": "liters",
+    "Operator": "*",
+    "Multiplyer": "2,1",
+    "To": "pints"
+  },
+  {
+    "Measure": "volume",
+    "From": "liters",
+    "Operator": "*",
+    "Multiplyer": "1,06",
+    "To": "quarts"
+  },
+  {
+    "Measure": "volume",
+    "From": "liters",
+    "Operator": "*",
+    "Multiplyer": "0,26",
+    "To": "gallons"
+  },
+  {
+    "Measure": "volume",
+    "From": "cubic meters",
+    "Operator": "*",
+    "Multiplyer": "35",
+    "To": "cubic feet"
+  },
+  {
+    "Measure": "volume",
+    "From": "cubic meters",
+    "Operator": "*",
+    "Multiplyer": "1,3",
+    "To": "cubic yards"
+  },
+  {
+    "Measure": "temperature",
+    "From": "celsius",
+    "Operator": "*",
+    "Multiplyer": "1,8 +34",
+    "To": "farenheit"
+  }
 ]
