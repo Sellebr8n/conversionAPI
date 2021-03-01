@@ -2,6 +2,11 @@ const express = require("express");
 const router = express.Router();
 const convertController = require("../controllers/convert")
 
+//POST /convert
+//Post route for FORM in home.ejs. Collect values in req.body and send to /convert/:from/:to/:value and redirect.
+// router.post("/", convertController.getMeasures)
+
+
 //POST: /convert/:measure
 //Return all groups of measures. I.e lenght, volume etc.
 router.post("/:measure", convertController.getMeasures)
