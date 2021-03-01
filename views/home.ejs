@@ -8,14 +8,17 @@
 </head>
 <body>
     <h1>Welcome to the ConversionAPI Docs!</h1>
+    <article>
+        <h2>Disclamer! I built this to practice RESTful routing</h2>
+        <h3>Although I believe that the conversions are correct, I do not take responsibility if they are wrong...</h3>
+    </article>
+    <article>
+    <h2>The following conversions are available with this API:</h2>
     <table id="measurements">
         <thead id="headers">
             <tr>
                 <td>Measure</td>
                 <td>From</td>
-                <td>Operator</td>
-                <td>Value</td>
-                <td>Multiplyer</td>
                 <td>To</td>
             </tr>
         </thead>
@@ -24,14 +27,51 @@
                 <tr>
                     <td><%- j.Measure %></td>
                     <td><%- j.From %></td>
-                    <td><%- j.Operator %></td>
-                    <td><%- j.Value %></td>
-                    <td><%- j.Multiplyer %></td>
                     <td><%- j.To %></td> 
                 </tr>
-            <% } %>
-        </tbody>
-    </table>
+                <% } %>
+            </tbody>
+        </table>
+    </article>
+    <article>
+        <h2>To get all available groups of measures:</h2>
+        <h4>/convert/:measure</h4>
+        <p>for example: <br>
+        <strong>POST: /convert/length</strong> will give this JSON response:</p>
+        <p>
+            {   <br>
+                "versions": 8, <br>
+                "measure": "length", <br>
+                "conversions": [ <br>
+                { <br>
+                    "From": "inches", <br>
+                    "To": "centimeters", <br>
+                    "Operator": "*", <br>
+                    "Multiplyer": "2,54" <br>
+                }, <br>
+                {   <br>
+                    "From": "foot", <br>
+                    "To": "centimeters", <br>
+                    "Operator": "*", <br>
+                    "Multiplyer": "30" <br>
+                },... <br>
+                Where "Versions" is an indicator of how many conversions that are available, where "measure" tells you the type of measure
+                and conversions are the differnet conversions in an array. <br>
+                Inside the "Conversions" you are also given the operator for the calculation and the multiplyer if you would like to convert into deciliter for example.
+            </p>
+    </article>
+    <article>
+        <h2>To do a conversion:</h2>
+        <h4>/convert/:from/:to/:value</h4>
+        <p>for example: <br>
+        <strong>POST: /convert/inches/centimeters/13</strong> will give this JSON response:</p>
+        {   
+           <br> "Value":"13",
+           <br> "From":"inches",
+           <br> "To":"centimeters",
+           <br> "Equals":33.02
+      <br>  }
+    </article>
 
 <script>
 

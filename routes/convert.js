@@ -3,17 +3,17 @@ const router = express.Router();
 const jsonData = require('../data.json');
 const converter = require("../scripts/converter")
 
-//GET /length
-router.get("/:from", ( req, res )=>{
-    const { from } = req.params
+//post /length
+router.post("/:measure", ( req, res )=>{
+    const { measure } = req.params
     const json = jsonData.filter(obj => {
-        return obj.From === from
+        return obj.Measure === measure
     })
     const obj = {   
-        conversions: json.length,
-            type: json.map(o => {
+        versions: json.length,
+        measure: measure, 
+        conversions: json.map(o => {
             return {
-                Measure: o.Measure,
                 From: o.From,
                 To: o.To,
                 Operator: o.Operator,
@@ -21,8 +21,6 @@ router.get("/:from", ( req, res )=>{
             }
         }),
     }
-    // console.log(JSON.stringify(obj));
-
     if (json.length > 0){
         res.status(200).json(obj)
     } else {
@@ -30,17 +28,18 @@ router.get("/:from", ( req, res )=>{
     }
 })
 
-router.get("/:from/:to/:value", (req, res) => {
+router.post("/:from/:to/:value", (req, res) => {
     const { from, to, value } = req.params
     const filteredJSON = jsonData.filter(obj => {
-        return obj.From === from && obj.To
+        return obj.From === from && obj.To === to
     })
     const newO = {
         Value: value,
         From: from,
         To: to,
-        Equals: converter(from, to, value, filteredJSON[0].Multiplyer)
+        Equals: converter(value, filteredJSON[0].Multiplyer)
     }
+
     const json = JSON.stringify(newO)
     res.status(200).send(json)
 })
