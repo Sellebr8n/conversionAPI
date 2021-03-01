@@ -4,7 +4,10 @@ const convertController = require("../controllers/convert")
 
 //POST /convert
 //Post route for FORM in home.ejs. Collect values in req.body and send to /convert/:from/:to/:value and redirect.
-// router.post("/", convertController.getMeasures)
+router.post("/", (req, res)=> {
+    console.log(req.params);
+    res.send(req.params)
+})
 
 
 //POST: /convert/:measure
